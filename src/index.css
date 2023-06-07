@@ -1,0 +1,27 @@
+:root{
+    --dark : #222224;
+    --light : #f0f0f0;
+    --red-pokemon : #ee1515;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.pokemoncard-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+
